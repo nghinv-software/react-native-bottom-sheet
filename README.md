@@ -23,6 +23,8 @@ npm install @nghinv/react-native-bottom-sheet
 	- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
 	- [@nghinv/react-native-icons](https://github.com/nghinv-software/react-native-icons)
 
+  <img src="./assets/example.gif" height="600"/>
+
 # How to use
 
 1. Wrapper `BottomSheetService` in the `Root Component`
