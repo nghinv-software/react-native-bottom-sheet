@@ -1,0 +1,37 @@
+{
+  "name": "@nghinv/react-native-bottom-sheet",
+  "version": "1.0.0",
+  "description": "A custom bottom sheet component",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "bottom-sheet",
+    "react-native-bottom-sheet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nghinv-software/react-native-bottom-sheet.git"
+  },
+  "author": "nghinv@lumi.biz",
+  "types": "typescript/index.d.ts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nghinv-software/react-native-bottom-sheet/issues"
+  },
+  "homepage": "https://github.com/nghinv-software/react-native-bottom-sheet#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": ">=2.0.0-rc.0",
+    "react-native-safe-area-context": "^3.1.9",
+    "@nghinv/react-native-icons": "^1.0.0"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
