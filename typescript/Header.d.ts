@@ -5,6 +5,7 @@
 
 import { TextStyle, ViewStyle, TextProps, TouchableOpacityProps } from 'react-native';
 import Animated from 'react-native-reanimated';
+import { IconProps } from '@nghinv/react-native-icons';
 
 export interface HeaderProps {
   title?: String;

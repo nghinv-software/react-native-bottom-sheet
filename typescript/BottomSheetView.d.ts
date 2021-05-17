@@ -30,8 +30,10 @@ export interface BottomSheetViewProps {
   onHide?: () => void;
   zIndex?: Number | null;
   header?: HeaderProps;
+  headerProps?: HeaderProps;
   optionProps?: ButtonActionSheetProps;
   bottomButton?: BottomButtonActionSheetProps;
+  bottomButtonProps?: BottomButtonActionSheetProps;
   testIDActionSheet?: String;
   accessibilityLabelActionSheet?: String;
   showStatusBar?: Boolean;
