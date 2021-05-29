@@ -20,7 +20,7 @@ export interface HeaderProps {
   closeButton?: Boolean;
   renderRightButton?: React.FC;
   transY: Animated.SharedValue<Number>;
-  onPressRightButton?: (onDismissModal: Function) => {};
+  onPressRightButton?: (checkPosition?: Number) => void;
   rightButtonIcon?: String;
   rightButtonTitle?: String;
   rightTitleColor?: String;
@@ -29,4 +29,5 @@ export interface HeaderProps {
   rightIconProps?: IconProps;
   closeButtonProps?: TouchableOpacityProps;
   rightButtonProps?: TouchableOpacityProps;
+  anchorPoint?: Boolean;
 }

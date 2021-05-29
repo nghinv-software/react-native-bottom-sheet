@@ -12,7 +12,7 @@ export interface BottomButtonActionSheetProps {
   borderRadius?: Number;
   backgroundColor?: String;
   titleStyle?: TextStyle;
-  onPress?: () => void;
+  onPress?: (checkPosition?: Number) => void;
   testIDButton?: String;
   accessibilityLabelButton?: String;
   testIDTitle?: String;

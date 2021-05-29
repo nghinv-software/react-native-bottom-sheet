@@ -37,6 +37,7 @@ export interface BottomSheetViewProps {
   testIDActionSheet?: String;
   accessibilityLabelActionSheet?: String;
   showStatusBar?: Boolean;
+  checkPosition?: Number;
 }
 
 interface BottomSheetViewInterface extends React.FC<BottomSheetViewProps> {
