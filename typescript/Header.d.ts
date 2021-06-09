@@ -19,7 +19,7 @@ export interface HeaderProps {
   messageProps?: TextProps;
   closeButton?: Boolean;
   renderRightButton?: React.FC;
-  transY: Animated.SharedValue<Number>;
+  transY?: Animated.SharedValue<Number>;
   onPressRightButton?: (checkPosition?: Number) => void;
   rightButtonIcon?: String;
   rightButtonTitle?: String;

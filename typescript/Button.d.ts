@@ -6,14 +6,14 @@
 import { IconType } from '@nghinv/react-native-icons';
 
 export interface ButtonActionSheetProps {
-  title: String;
+  title?: String;
   onPress?: () => void;
-  checked: Boolean;
+  checked?: Boolean;
   titleColor?: String;
   iconCheckColor?: String;
   leftIconName?: String;
   leftIconColor?: String;
-  leftIconType: IconType;
+  leftIconType?: IconType;
   renderRight?: () => void;
   testIDButton?: String;
   accessibilityLabelButton?: String;

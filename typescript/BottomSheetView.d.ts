@@ -16,17 +16,17 @@ type ButtonBottomSheetType = {
 type OptionsBottomSheet = Array<BottomButtonActionSheetProps | ButtonBottomSheetType>
 
 export interface BottomSheetViewProps {
-  options: OptionsBottomSheet;
+  options?: OptionsBottomSheet;
   renderContent?: React.FC;
   renderBackground?: React.FC;
   borderRadius?: Number;
   width?: Number | String;
-  nativeModal: Boolean;
+  nativeModal?: Boolean;
   backgroundColor?: String;
   separatorColor?: String;
   animationType?: 'spring' | 'timing';
-  springAnimationConfig: Object;
-  timingAnimationConfig: Object;
+  springAnimationConfig?: Object;
+  timingAnimationConfig?: Object;
   onHide?: () => void;
   zIndex?: Number | null;
   header?: HeaderProps;
