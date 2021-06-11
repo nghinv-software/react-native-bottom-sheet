@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import Animated from 'react-native-reanimated';
 import { ButtonActionSheetProps } from './Button';
 import { BottomButtonActionSheetProps } from './BottomButton';
 import { HeaderProps } from './Header';
@@ -11,6 +12,14 @@ import { SeparatorProps } from './Separator';
 
 type ButtonBottomSheetType = {
   autoDismiss?: Boolean;
+}
+
+export interface OverlayProps {
+  progress?: Animated.SharedValue<Number>;
+  onPress?: () => void;
+  backgroundColor?: String;
+  overlayOpacity?: Number;
+  showStatusBar?: Boolean;
 }
 
 type OptionsBottomSheet = Array<BottomButtonActionSheetProps | ButtonBottomSheetType>
@@ -39,6 +48,7 @@ export interface BottomSheetViewProps {
   showStatusBar?: Boolean;
   checkedPosition?: Number;
   renderOptions?: React.FC | React.Component;
+  overlayProps?: OverlayProps;
 }
 
 interface BottomSheetViewInterface extends React.FC<BottomSheetViewProps> {
