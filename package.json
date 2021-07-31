@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-bottom-sheet",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A custom bottom sheet component",
   "main": "lib/index.js",
   "scripts": {
@@ -37,8 +37,6 @@
   },
   "devDependencies": {},
   "publishConfig": {
-    "cache": "~/.npm",
-    "registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "react-native": {
