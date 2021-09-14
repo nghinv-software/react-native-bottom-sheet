@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-bottom-sheet",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A custom bottom sheet component",
   "main": "lib/index.js",
   "scripts": {
