@@ -30,4 +30,5 @@ export interface HeaderProps {
   closeButtonProps?: TouchableOpacityProps;
   rightButtonProps?: TouchableOpacityProps;
   anchorPoint?: Boolean;
+  onPressRightButtonToDismiss?: Boolean;
 }
